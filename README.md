@@ -1,6 +1,7 @@
 # pvpc_to_telegram
 Bot that will send energy prices for the following day according to the PVPC webpage
 
+![Screenshot](media/telegrambot.PNG)
 
 # Telegram package
 This package allows you to use a Telegram bot as handler for the standard logging library. In order to use this you will 
