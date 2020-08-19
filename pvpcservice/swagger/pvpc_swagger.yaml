@@ -1,0 +1,27 @@
+swagger: '2.0'
+info:
+  title: PVPC Service REST API
+  description: API to extract PVPC energy prices
+  version: 0.0.1
+schemes:
+  - http
+paths:
+  /telegram:
+    get:
+      summary: Extract PVPC prices and send to Telegram
+      operationId: pvpcservice.controllers.api.telegram
+      responses:
+        '200':
+          description: Information correctly sent to telegram
+        '500':
+          description: Internal Error
+
+  /v2/prices:
+    get:
+      summary: Provide PVPC forecast prices for today in NGSI-v2 format
+      operationId: pvpcservice.controllers.api.prices_v2
+      responses:
+        '200':
+          description: Succesfully extrated PVPC prices
+        '500':
+          description: Internal Error
