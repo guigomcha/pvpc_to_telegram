@@ -4,9 +4,9 @@ from http import HTTPStatus
 from pvpcservice.pvpc import PVPC
 
 
-def telegram():
+def telegram(access_info):
     try:
-        PVPC().send_fig_to_telegram()
+        PVPC().alert_telegram(access_info['bot_token'], access_info['chats_token'])
         return "Message Correctly sent to Telegram", HTTPStatus.OK
     except Exception as e:
         return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR
@@ -18,13 +18,17 @@ def prices():
         result = df.to_json(orient="columns")
         parsed = json.loads(result)
         response = json.dumps(parsed, indent=4)
-
         return f"{response}", HTTPStatus.OK
     except Exception as e:
-        return "Ups! There was a problem", HTTPStatus.INTERNAL_SERVER_ERROR
+        return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR
 
 
 def prices_v2():
     pass
-if __name__ == "__main__":
-    telegram()
+
+# if __name__ == "__main__":
+#     access_info = {
+#       "bot_token": "1361411284:AAHmT2mlcpAW9RNiZ3D7fe8rgwsdH_W-5xY",
+#       "chats_token": ["-438788913"]
+#     }
+#     telegram(access_info)
