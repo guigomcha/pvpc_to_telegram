@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.1",
+  "$id": "https://github.com/Guillelerial/pvpc_to_telegram/ngsi/forecast/schema.json",
+  "title": " - Forecast schema for a given property of en entity",
+  "description": "A harmonised description of a Forecast",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["Forecast"],
+          "description": "NGSI type"
+        },
+        "category":{
+          "type": "string",
+          "description": "Reference of forecast meaning"
+        },
+        "dateIssued": {
+          "title": "Date from which the forecast apply. Use it as reference date to evaluate window of forecast",
+          "type": "string",
+          "format": "date-time"
+        },
+        "ObservedAt": {
+          "title": "Actual timestamp at which the forecast request was placed",
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "title": "Provider of the Forecast",
+          "type": "string"
+        },
+        "timezone": {
+          "title": "Timezone for which this Forecast was obtained",
+          "type": "string"
+        },
+        "indexes": {
+          "title": "End-of-period timestamp use to index each value forecasted.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "values": {
+          "title": "Forecast value",
+          "type": "string",
+          "format": "date-time",
+          "unitCode": {
+            "$ref": "https://schema.org/unitCode"
+          },
+          "refEntity": {
+            "title": "Holds Id of the Entity for which this forecast was obtained.",
+            "type": "string"
+          },
+          "refProperty": {
+            "title": "Holds the final name of the property for which this forecast was obtained.",
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "required": ["id", "type", "dateIssued", "indexes", "values"]
+}
