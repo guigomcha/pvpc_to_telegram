@@ -66,7 +66,9 @@ class PVPC:
     def get_ngsi_v2_model(self):
         """
         Obtains forecasts and returns back an NGSI-v2 complaint entity
-        Returns:
+
+        Returns (dict):
+            NGSI-v2 model describing the forecast. Full schema in pvpcservice/ngsi/schema.json
 
         """
         df = self._get_pvpc_df()
