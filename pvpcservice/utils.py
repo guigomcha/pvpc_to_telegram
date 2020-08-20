@@ -18,17 +18,12 @@ def scrap_price_section(content):
     }
 
 
-def _format_timestamp(ts):
-    """ Local Z-naive Timestamp. e.g 2020-08-19T00:00:00 """
-    return ts.tz_localize(None)
-
-
-def build_df(dte_issued, interval_to_price):
+def build_df(date_issued, interval_to_price):
     """
     Create a df based on scrapped values for further any
 
     Args:
-        dte_issued(pd.Timestamp): Local time Z-aware
+        date_issued(pd.Timestamp): Local time Z-aware
         interval_to_price (dict, {str: float}): Time interval to price value pairs. e.g {'00h - 01h': 0.1005}
 
     Returns (pd.DataFrame):
@@ -37,8 +32,8 @@ def build_df(dte_issued, interval_to_price):
     data = []
     for interval, price in interval_to_price.items():
         data.append({
-            'ts_start': _format_timestamp(dte_issued + pd.Timedelta(interval.split(' ')[0])),
-            'ts_end': _format_timestamp(dte_issued + pd.Timedelta(interval.split(' ')[-1])),
+            'ts_start': date_issued + pd.Timedelta(interval.split(' ')[0]),
+            'ts_end': date_issued + pd.Timedelta(interval.split(' ')[-1]),
             'interval': interval,
             'price': price
         })

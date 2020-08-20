@@ -8,10 +8,10 @@ def get_ngsi_v2_entity(df, id, first_ts, source="http://www.aemet.es/xml/municip
         "type": "Forecast",
         "category": "EnergyPrice",
         "ObservedAt": {
-            "value": pd.Timestamp.utcnow().tz_convert(timezone).isoformat()
+            "value": pd.Timestamp.utcnow().tz_convert(timezone).floor('s').isoformat()
         },
         "dateIssued": {
-            "value": first_ts
+            "value": first_ts.isoformat()
         },
         "source": {
             "value": source
