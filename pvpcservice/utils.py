@@ -38,3 +38,4 @@ def build_df(date_issued, interval_to_price):
             'price': price
         })
     return pd.DataFrame(data)
+

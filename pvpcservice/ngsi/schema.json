@@ -17,6 +17,14 @@
           "type": "string",
           "description": "Reference of forecast meaning"
         },
+        "forecastType":{
+          "type": "string",
+          "description": "Name of the algorithm used to extract the forecast"
+        },
+        "probability":{
+          "type": "int",
+          "description": "Probability for this forecast. Use it to reflect stochastic scenarios"
+        },
         "dateIssued": {
           "title": "Date from which the forecast apply. Use it as reference date to evaluate window of forecast",
           "type": "string",
@@ -42,8 +50,7 @@
         },
         "values": {
           "title": "Forecast value",
-          "type": "string",
-          "format": "date-time",
+          "type": "any",
           "unitCode": {
             "$ref": "https://schema.org/unitCode"
           },

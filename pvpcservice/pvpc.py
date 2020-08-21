@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 
-from loggingbot.loggingbot import TelegramBotHandler
+from loggingbot.telegrambot.telegram_bot_handler import TelegramBotHandler
 
 from pvpcservice.ngsi import entities
 from pvpcservice import utils
@@ -50,12 +50,11 @@ class PVPC:
         # Format data and plot
         df_cheap = df[df['price'] < thr]
         df_expensive = df[df['price'] >= thr]
-
-        plt.bar(df_cheap['interval'], df_cheap['price'], color='g')
-        plt.bar(df_expensive['interval'], df_expensive['price'], color='r')
+        plt.bar(df_cheap.index, df_cheap['price'], color='g', )
+        plt.bar(df_expensive.index, df_expensive['price'], color='r')
         plt.ylim(df['price'].min(), df['price'].max())
         plt.title(f'PVPC prices {today} in Spain')
-        plt.xticks(rotation=degrees)
+        plt.xticks(ticks=range(len(df)),labels=df['interval'].values, rotation=degrees)
         plt.xlabel('Time Interval Applicable')
         plt.ylabel('Price (€)')
         plt.grid(True, axis='both')
