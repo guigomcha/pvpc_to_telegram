@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.1",
+  "$id": "https://github.com/Guillelerial/pvpc_to_telegram/ngsi/forecast/schema.json",
+  "title": " - Forecast schema for a given property of en entity",
+  "description": "A harmonised description of a Forecast",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["Forecast"],
+          "description": "NGSI-v2 type"
+        },
+        "category": {
+          "type": "enum",
+          "enum": ["Stochastic", "Deterministic", "Generic", "Others"],
+          "description": "Reference of forecast category"
+        },
+        "forecastType":{
+          "type": "string",
+          "description": "Name of the algorithm used to extract the forecast"
+        },
+        "probability":{
+          "type": "number",
+          "default": 100,
+          "description": "Probability for this forecast. Use it to reflect stochastic scenarios"
+        },
+        "dateIssued": {
+          "description": "First date from which the forecast apply. Use it as reference date to evaluate window of forecast",
+          "type": "string",
+          "format": "date-time"
+        },
+        "provider": {
+          "description": "Provider of the Forecast",
+          "type": "string"
+        },
+        "timezone": {
+          "description": "Timezone for which this Forecast was obtained",
+          "type": "string"
+        },
+        "indexes": {
+          "description": "End-of-period timestamp used to index each forecast's value.",
+          "type": "array",
+          "items": {
+            "validTo": {
+              "description": "Last date up to which the forecast applies to (included).",
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "values": {
+          "description": "Forecast value",
+          "type": "array",
+          "items": {
+            "type": "any"
+          }
+        },
+        "unitCode": {
+          "type": "string"
+        },
+        "refEntity": {
+          "description": "Holds Id of the Entity for which this forecast was obtained.",
+          "type": "string"
+        },
+        "refProperty": {
+          "description": "Holds the final name of the property for which this forecast was obtained.",
+          "type": "string"
+        }
+      }
+      }
+    }
+  ],
+  "required": ["id", "type", "dateIssued", "indexes", "values", "unitCode"]
+}

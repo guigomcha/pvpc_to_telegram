@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.1",
+  "$id": "https://github.com/Guillelerial/pvpc_to_telegram/ngsi/price/schema.json",
+  "title": " - Detailed price information",
+  "description": "A harmonised description of a Price",
+  "type": "object",
+  "allOf": [
+    {
+    "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["Price"],
+          "description": "NGSI-v2 type"
+          },
+        "category": {
+          "type": "enum",
+          "enum": ["Energy", "Power", "Others"],
+          "description": "Reference of price type"
+        },
+        "dateIssued": {
+          "description": "Date when the price was agreed",
+          "type": "string",
+          "format": "date-time"
+        },
+        "validFrom": {
+          "description": "First date from which the price applies from (not included).",
+          "type": "string",
+          "default": "0000-01-01",
+          "format": "date-time"
+        },
+        "validTo": {
+          "description": "Last date up to which the price applies to (included).",
+          "type": "string",
+          "default": "9999-12-31",
+          "format": "date-time"
+        },
+        "provider": {
+          "description": "Provider of the Price",
+          "type": "string",
+          "format": "uri"
+        },
+        "price": {
+          "description": "Price value",
+          "type": "object",
+          "required": ["value", "unitCode"],
+          "value": {
+            "type": "number"
+          },
+          "unitCode": {
+            "type": "string"
+          }
+        },
+        "refEntity": {
+          "description": "Holds Id of the Entity for which this price was obtained.",
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+        },
+        "refProperty": {
+          "description": "Holds the final name of the property for which this price was obtained.",
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+        }
+        }
+      }
+    }
+  ],
+  "required": ["id", "type", "price", "category"]
+}
