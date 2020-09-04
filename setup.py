@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 # os.system('pip install -e loggingbot/')
 
 
-setup(name='pvpcservice',
+setup(name='pvpc_service',
       description='Context Provider for PVPC Energy prices in Spain',
       version='master',
       python_requires='>=3.7',
