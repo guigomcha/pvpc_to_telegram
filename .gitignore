@@ -1,3 +1,5 @@
 .idea
 __pycache__
 loggingbot
+pvpcservice.egg-info/
+pvpc_service.egg-info/
