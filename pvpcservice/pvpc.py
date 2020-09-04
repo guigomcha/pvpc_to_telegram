@@ -39,8 +39,9 @@ class PVPC:
 
         """
         df = self._get_pvpc_df()
-        # TODO: parametrise threshold for 'cheap' energy
-        thr = 0.1
+        # TODO: parametrize threshold for 'cheap' energy
+        thr1 = 0.1
+        thr2 = 0.11
         logging.root.setLevel(logging.INFO)
         tbh = TelegramBotHandler(bot_token, chats_token)
         logging.root.addHandler(tbh)
@@ -48,9 +49,11 @@ class PVPC:
         today = df['ts_start'][0].date()
         degrees = 90
         # Format data and plot
-        df_cheap = df[df['price'] < thr]
-        df_expensive = df[df['price'] >= thr]
-        plt.bar(df_cheap.index, df_cheap['price'], color='g', )
+        df_cheap = df[df['price'] < thr1]
+        df_in_between = df[(df['price'] >= thr1)&(df['price'] < thr2)]
+        df_expensive = df[df['price'] >= thr2]
+        plt.bar(df_cheap.index, df_cheap['price'], color='g')
+        plt.bar(df_in_between.index, df_in_between['price'], color='y')
         plt.bar(df_expensive.index, df_expensive['price'], color='r')
         plt.ylim(df['price'].min(), df['price'].max())
         plt.title(f'PVPC prices {today} in Spain')
