@@ -44,6 +44,9 @@ class PVPC:
         thr2 = 0.11
         logging.root.setLevel(logging.INFO)
         tbh = TelegramBotHandler(bot_token, chats_token)
+        if not tbh.is_ready():
+            raise ConnectionError('Unable to connect to Telegram. Please check tokens provided')
+
         logging.root.addHandler(tbh)
         logger = logging.getLogger('pvpc_bot')
         today = df['ts_start'][0].date()
