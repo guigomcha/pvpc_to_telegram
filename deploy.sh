@@ -1,6 +1,4 @@
 #!/bin/bash
-Hostport=8080
-Localport=8080
-Network=bridge
+source ~/venvs/pvpc/bin/activate
+python3 -u pvpcservice/rest_manager.py
 
-docker run  --network=$Network --name pvpc_service -p $Hostport:$Localport pvpc_service
