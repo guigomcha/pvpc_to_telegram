@@ -18,9 +18,3 @@ def prices_v2():
     except Exception as e:
         return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR
 
-
-if __name__ == "__main__":
-    telegram({
-      "bot_token": "1361411284:AAHmT2mlcpAW9RNiZ3D7fe8rgwsdH_W-5xY",
-      "chats_token": ["-438788913"]
-    })
