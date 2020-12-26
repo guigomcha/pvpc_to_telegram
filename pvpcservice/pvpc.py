@@ -1,10 +1,10 @@
+from pathlib import Path
+
 import bs4
-import logging
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
-
-from loggingbot.telegrambot.telegram_bot_handler import TelegramBotHandler
+import telebot
 
 from pvpcservice.ngsi import entities
 from pvpcservice import utils
@@ -39,16 +39,10 @@ class PVPC:
 
         """
         df = self._get_pvpc_df()
+        bot = telebot.TeleBot(bot_token)
         # TODO: parametrize threshold for 'cheap' energy
         thr1 = 0.1
         thr2 = 0.11
-        logging.root.setLevel(logging.INFO)
-        tbh = TelegramBotHandler(bot_token, chats_token)
-        if not tbh.is_ready():
-            raise ConnectionError('Unable to connect to Telegram. Please check tokens provided')
-
-        logging.root.addHandler(tbh)
-        logger = logging.getLogger('pvpc_bot')
         today = df['ts_start'][0].date()
         degrees = 90
         # Format data and plot
@@ -64,9 +58,11 @@ class PVPC:
         plt.xlabel('Time Interval Applicable')
         plt.ylabel('Price (€)')
         plt.grid(True, axis='both')
-
+        plt.savefig('today.png')
+        plt.clf()
         # Send the figure to Telegram
-        logger.info(f'Extracting PVPC for energy in Spain for {today}', extra={'bot': True, 'figure': plt.gcf()})
+        bot.send_photo(chats_token[0], photo=open('today.png', 'rb'))
+        Path('today.png').unlink()
 
     def get_ngsi_v2_model(self):
         """
