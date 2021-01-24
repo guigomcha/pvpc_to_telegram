@@ -1,5 +1,8 @@
 # pvpc_to_telegram
-Bot that will send energy prices for the following day according to the PVPC webpage
+Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 02:30 of each day day with the 
+prices per hour in the form of a barchart. 
+
+Subscribe in https://t.me/info_pvpc_spain  
 
 ![Screenshot](media/telegrambot.PNG)
 
@@ -7,12 +10,14 @@ Bot that will send energy prices for the following day according to the PVPC web
 This package allows you to use a Telegram bot as handler for the standard logging library. In order to use this you will 
 need to carry out some configurations outside the scope of this repository.
 
-## How to create a Telegram Bot
+## How to create a Telegram Bot and link it to a chat/channel 
 The process is very well documented online. I found this link (https://dev.to/rizkyrajitha/get-notifications-with-telegram-bot-537l)
 very easy to follow.
 
 1) Copy the Bot's token in tokens.json under the 'bot_token' object.
 2) Copy the Chat's token in tokens.json under the 'chats_token' list. More than a single chat can be used seamlessly
+
+Note: It was found required to have sent at least one message to the group/channel in order to fetch the id from 2)
 
 ## How to create a logging handler for a Telegram Bot
 This section of the project is actually forked from https://github.com/dmitryikh/loggingbot with some fixes that I 
