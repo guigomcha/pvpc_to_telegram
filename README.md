@@ -2,7 +2,7 @@
 Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 02:30 of each day day with the 
 prices per hour in the form of a barchart. 
 
-Subscribe in https://t.me/info_pvpc_spain  
+Subscribe at: https://t.me/info_pvpc_spain  
 
 ![Screenshot](media/telegrambot.PNG)
 
