@@ -8,7 +8,7 @@ Subscribe in https://t.me/info_pvpc_spain
 
 
 Current version of the app is deployed in a Raspberry pi 4 and orchestrated via Node Red:
-![Screenshot](media/NodeRedInterface.PNG) 
+![Screenshot](media/NodeRedInterface.png) 
 
 # Telegram package
 This package makes use of a Telegram bot as handler for the standard logging library. In order to use this you will 
