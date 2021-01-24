@@ -3,7 +3,8 @@ import pandas as pd
 
 def scrap_price_section(content):
     """
-        Download prices for PVPC energy market. They should follow the https://schema.org/PriceSpecification reference.
+    Download prices for PVPC energy market. They should follow the https://schema.org/PriceSpecification reference.
+
     Args:
         content (BeautifulSoup object): parsed web page
 
