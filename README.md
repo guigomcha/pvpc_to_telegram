@@ -6,8 +6,12 @@ Subscribe in https://t.me/info_pvpc_spain
 
 ![Screenshot](media/telegrambot.PNG)
 
+
+Current version of the app is deployed in a Raspberry pi 4 and orchestrated via Node Red:
+![Screenshot](media/NodeRedInterface.PNG) 
+
 # Telegram package
-This package allows you to use a Telegram bot as handler for the standard logging library. In order to use this you will 
+This package makes use of a Telegram bot as handler for the standard logging library. In order to use this you will 
 need to carry out some configurations outside the scope of this repository.
 
 ## How to create a Telegram Bot and link it to a chat/channel 
