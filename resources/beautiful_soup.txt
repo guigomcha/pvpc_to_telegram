@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="es" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<meta charset="utf-8"/>
+<link href="https://tarifaluzhora.es/" rel="canonical"/>
+<link href="https://tarifaluzhora.es/" rel="shortlink"/>
+<meta content="Comprueba aquí el Precio actual de la Luz | Precios máximos y mínimos de la luz a lo largo del día, con y sin Discriminación Horaria del día que quieras" name="description"/>
+<meta content="ES" property="og:country_name"/>
+<meta content="Drupal 8 (https://www.drupal.org)" name="Generator"/>
+<meta content="width" name="MobileOptimized"/>
+<meta content="true" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>var dc = document.cookie;if (dc.indexOf("cookie-agreed") !== -1) {var styles = "#sliding-popup {display: none;}", styleSheet = document.createElement("style");
+  styleSheet.type = "text/css";styleSheet.innerText = styles;document.head.appendChild(styleSheet)};</script>
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #d9f2ff} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #004791;} .eu-cookie-withdraw-tab { border-color: #004791;}</style>
+<link href="/sites/default/files/favicon_%282%29.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<script defer="" src="/sites/default/files/google_tag/primary/google_tag.script.js?que32y"></script>
+<title>Precio de la tarifa de luz por horas HOY | Consulta ahora ✅</title>
+<link href="/sites/default/files/css/css_XUUBhv-nXYzsBJeLFLGAQpfPx7nxW8d89yaHNWoZyzg.css" media="all" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.0/dist/css/datepicker.min.css" media="all" rel="stylesheet"/>
+<link href="/sites/default/files/css/css_JUVNMKhUxhBf85zFF6Exd3e51zbFI6RsfX8kCSZ1y-w.css" media="all" rel="stylesheet"/>
+<link href="/sites/default/files/css/css_611AYuJeqPZa8OO-GJcP5KwvMwdC1jl5zv1rmo1lXoY.css" media="all" rel="stylesheet"/>
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/sites/default/files/js/js_1y1QMIymGbRL-IHG01JtdiC2DQypHDjb51SQBfemIfc.js"></script>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+</head>
+<body>
+<div id="sliding-popup"><div aria-labelledby="popup-text" class="eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories" role="alertdialog">
+<div class="eu-cookie-compliance-close">
+<button aria-label="Close" class="btn-close btn-close--sm agree-button eu-cookie-compliance-default-button" type="button">
+<svg aria-hidden="true" class="icon">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-cross"></use>
+</svg>
+</button>
+</div>
+<div class="popup-content info eu-cookie-compliance-content">
+<div class="eu-cookie-compliance-content--wrapper">
+<div class="eu-cookie-compliance-message" id="popup-text">
+<p>Al seguir navegando, estás aceptando el uso de cookies.</p> 
+			</div>
+<div class="eu-cookie-compliance-message" id="eu-cookie-compliance-manage-cookies">
+<div class="manage-cookies" data-target="manage-cookies-modal" data-toggle="modal">Obtén más información y configura el uso de cookies.</div>
+</div>
+<div class="modal__holder">
+<div class="modal__dialog">
+<div aria-modal="true" class="modal modal--md" id="manage-cookies-modal" role="dialog">
+<button aria-label="Close" class="btn-close btn-close--sm" data-dismiss="modal" type="button">
+<svg aria-hidden="true" class="icon icon-- icon-- icon--">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-cross"></use>
+</svg>
+</button>
+<div class="modal__header" id="content-area">
+<span class="eu-cookie-compliance__modal-title text-center modal--title">Configurar cookies</span>
+<div class="text-center" id="manage-cookies-description">
+<p>En esta página usamos cookies para mejorar tu experiencia de usuario</p>
+<button class="find-more-button btn btn-sm btn-secondary btn-outline" type="button">More info</button>
+</div>
+</div>
+<div class="eu-cookie-compliance-categories modal__body" id="eu-cookie-compliance-categories">
+<p class="eu-cookie-compliance-category">
+<label class="checkbox checkbox--disabled" for="cookie-category-technical">
+<input checked="" class="checkbox__input" disabled="" id="cookie-category-technical" name="cookie-categories" tabindex="-1" type="checkbox" value="technical"/>
+<span class="checkbox__shape" tabindex="-1"></span>
+<span class="checkbox__label">
+<strong>
+													Cookies técnicas
+												</strong>
+</span>
+</label>
+<div class="eu-cookie-compliance-category-description">Son necesarias para proporcionar las funciones básicas de la web como la navegación</div>
+</p>
+<p class="eu-cookie-compliance-category">
+<label class="checkbox" for="cookie-category-analytics">
+<input checked="" class="checkbox__input" id="cookie-category-analytics" name="cookie-categories" tabindex="-1" type="checkbox" value="analytics"/>
+<span class="checkbox__shape"></span>
+<span class="checkbox__label">
+<strong>
+													Cookies de analítica
+												</strong>
+</span>
+</label>
+<div class="eu-cookie-compliance-category-description">Estas cookies permiten conocer cómo los usuarios navegan por la página. Solo recabamos datos anónimos con fines estadísticos</div>
+</p>
+<p class="eu-cookie-compliance-category">
+<label class="checkbox" for="cookie-category-marketing">
+<input class="checkbox__input" id="cookie-category-marketing" name="cookie-categories" tabindex="-1" type="checkbox" value="marketing"/>
+<span class="checkbox__shape"></span>
+<span class="checkbox__label">
+<strong>
+													Cookies de marketing
+												</strong>
+</span>
+</label>
+<div class="eu-cookie-compliance-category-description">Estas cookies con empleadas con fines publicitarios</div>
+</p>
+</div>
+<div class="modal__footer">
+<button class="eu-cookie-compliance-save-preferences-button btn btn--sm btn--secondary" data-dismiss="modal" type="button">
+										Save preferences
+									</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="eu-cookie-compliance-buttons eu-cookie-compliance-has-categories" id="popup-buttons">
+<button class="agree-button eu-cookie-compliance-default-button" type="button">
+<svg aria-hidden="true" class="icon icon--24">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-check-mark"></use>
+</svg>
+<span>
+					Aceptar
+				</span>
+</button>
+<button class="eu-cookie-withdraw-button hidden" type="button">Withdraw consent</button>
+</div>
+</div>
+</div></div><noscript aria-hidden="true"><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-M86QQ94" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+<div id="tarifaluzhora-home-area"></div>
+<div class="page-node-187" id="page-wrapper">
+<div id="page">
+<div>
+<nav id="ac-bridge">
+<div class="ac-bridge">
+<div class="container ac-bridge__container">
+<div class="ac-bridge__left-side"><nav class="dropdown dropdown--no-scroll dropdown--borderless"><button aria-expanded="false" aria-haspopup="true" class="dropdown__trigger" data-toggle="dropdown" type="button"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-es"></use></svg>Español</button><ul class="dropdown__content"><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.es/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-es"></use></svg>Español</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.info/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-fr"></use></svg>Francia</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://luce-gas.it/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-it"></use></svg>Italia</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://callmepower.be/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-be"></use></svg>Bélgica</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.at/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-at"></use></svg>Austria</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.pt/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-pt"></use></svg>Portugal</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.jp/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-jp"></use></svg>Japón</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://akillitarife.com/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-tr"></use></svg>Turquía</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://selectra.mx/"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-mx"></use></svg>México</a></li><li class="dropdown__item"><a class="dropdown__link" href="https://podecomparar.com.br/" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-br"></use></svg>Brasil</a></li></ul></nav></div>
+<ul class="ac-bridge__social"><li class="ac-bridge__social-item"><a aria-label="Facebook" class="ac-bridge__social-btn ac-bridge__social-btn--facebook" href="https://www.facebook.com/selectra.es/" rel="noopener" tabindex="-1" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-facebook"></use></svg></a></li><li class="ac-bridge__social-item"><a aria-label="Twitter" class="ac-bridge__social-btn ac-bridge__social-btn--twitter" href="https://twitter.com/selectra_es" rel="noopener" tabindex="-1" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-twitter"></use></svg></a></li></ul>
+<div class="ac-bridge__right-side"><a class="ac-bridge__phone-number u-anim--shake" href="tel:https://tarifaluzhora.es/formulario-contacto" tabindex="0" title="¡Llámanos!"><svg aria-hidden="true" class="icon icon--16 icon--right"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg>91 076 95 86</a><div class="fake-tooltip" title="Número sin sobrecoste"><a aria-label="Número sin sobrecoste" class="btn-help btn-help--sm" role="button"><svg aria-hidden="true" class="btn-help__icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-circle-info-outlined"></use></svg><svg aria-hidden="true" class="btn-help__icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-circle-info-filled"></use></svg></a></div></div>
+</div>
+</div>
+</nav>
+<header id="ac-menu">
+<div class="ac-menu ac-menu--fixed">
+<div class="container ac-menu__container">
+<a aria-label="Logo Tarifaluzhora" class="ac-menu-logo" href="/"><img alt="Selectra" class="ac-menu-logo__img" src="https://staging.cdn.selectra.info/app-config.selectra.io/img/medias/logos/946.svg"/></a>
+<div class="ac-menu-list-container">
+<div class="ac-menu-list">
+<nav class="ac-menu-list__nav">
+<ul class="ac-menu-list__lvl ac-menu-list__lvl--1"><li class="ac-menu-list__item ac-menu-list__item--1 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--1" href="/tramites">Trámites<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--2"><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Trámites</a></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Trámites de luz<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Trámites de luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/como-dar-alta-luz">Dar de alta la luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/cambio-titular-luz">Cambiar el titular de luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/aumentar-potencia-electrica">Aumentar potencia eléctrica</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/reducir-potencia">Reducir la potencia eléctrica</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/cambiar-compania">Cambiar de compañía eléctrica</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Trámites de Gas<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Trámites de Gas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/como-dar-alta-gas">Dar de alta el gas natural</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/tramites/cambio-titular-gas-natural">Cambiar el titular del gas natural</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/tramites/lectura-contador-luz">Dar Lectura Contador de luz</a></li><li class="ac-menu-footer"><div class="ac-menu-footer__body"><svg class="icon icon--48 ac-menu-footer__icon" viewbox="0 0 24 24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-speech-bubbles"></use></svg><p class="ac-menu-footer__title">Llámanos</p><p class="ac-menu-footer__opening-hours">Lunes a viernes de 8 a 22h. Sáb: 9 a 21h. Dom: de 9 a 20h</p></div><div class="ac-menu-footer__phone"><a class="btn btn--white btn--md btn--pill btn--big-text u-anim--shake" href="tel:+34910769586" title="Llámanos gratuitamente"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg>91 076 95 86</a> </div></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--1 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--1" href="https://tarifaluzhora.es/comparador">Comparador <svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--2"><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Comparador </a></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="/comparador/tarifas-electricas">Comparativa de tarifas eléctricas<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Comparativa de tarifas eléctricas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/tarifas-electricas/2-0">Tarifas de acceso 2.0</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/tarifas-electricas/2-1">Tarifas de acceso 2.1</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/tarifas-electricas/3-0">Tarifas de acceso 3.0</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/comparador/companias-luz-baratas">Compañías de luz más baratas<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Compañías de luz más baratas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/endesa-naturgy">¿Endesa o Naturgy?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/endesa-o-iberdrola">¿Endesa o Iberdrola?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/iberdrola-o-edp">¿Iberdrola o EDP?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/iberdrola-o-repsol">¿Iberdrola o Repsol?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/endesa-o-edp">¿Endesa o Edp?</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/comparador/companias-gas-baratas">Compañías de gas natural más baratas</a></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Otras comparativas<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Otras comparativas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/mejor-tarifa-luz">¿Cuál es la mejor tarifa de luz?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/franja-horaria">¿A qué hora es más barata la luz?</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/comparador/pvpc-o-mercado-libre">¿PVPC o Mercado Libre?</a></li></ul></li><li class="ac-menu-footer"><div class="ac-menu-footer__body"><svg class="icon icon--48 ac-menu-footer__icon" viewbox="0 0 24 24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-speech-bubbles"></use></svg><p class="ac-menu-footer__title">Llámanos</p><p class="ac-menu-footer__opening-hours">Lunes a viernes de 8 a 22h. Sáb: 9 a 21h. Dom: de 9 a 20h</p></div><div class="ac-menu-footer__phone"><a class="btn btn--white btn--md btn--pill btn--big-text u-anim--shake" href="tel:+34910769586" title="Llámanos gratuitamente"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg>91 076 95 86</a> </div></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--1"><a class="ac-menu-list__link ac-menu-list__link--1" href="/directorio">Directorio</a></li><li class="ac-menu-list__item ac-menu-list__item--1"><a class="ac-menu-list__link ac-menu-list__link--1" href="/info">Info</a></li><li class="ac-menu-list__item ac-menu-list__item--1 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--1" href="/companias">Compañías<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--2"><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Compañías</a></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/companias/endesa">Endesa<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Endesa</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/endesa/oferta">Tarifas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/endesa/telefono">Teléfono</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="/companias/endesa/area-clientes">Área de clientes Endesa</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/endesa/cambio-titular">Cambiar de titular</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/endesa/dar-alta-luz">Dar de alta la luz</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/companias/iberdrola">Iberdrola<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Iberdrola</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/iberdrola/oferta">Planes de Iberdrola</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="/companias/iberdrola/telefono">Teléfono</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="/companias/iberdrola/dar-alta-luz">Dar de alta la luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="/companias/iberdrola/cambio-titular">Cambiar titular </a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/iberdrola/area-clientes">Área de clientes</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/companias/naturgy">Naturgy<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Naturgy</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/naturgy/gas-power">Gas&amp;Power</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/naturgy/telefono">Teléfono</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/naturgy/iberia">Naturgy Iberia S.A</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/naturgy/dar-alta-luz">Dar de alta la luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/naturgy/cambio-titular">Cambio de titular</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/companias/edp">EDP<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>EDP</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/edp/telefono">Teléfono</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/edp/programa-puntos">Programa EDP Puntos</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/edp/cambio-titular">Cambio de titular</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/edp/funciona">EDP Funciona</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/edp/online">EDP Clientes</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Otras compañías<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Otras compañías</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/cepsa-hogar">Cepsa Hogar</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/podo">Podo</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/holaluz">Holaluz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias">Más Compañías</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="https://tarifaluzhora.es/companias/repsol">Repsol<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Repsol</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/repsol/tarifas">Repsol tarifas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/repsol/telefono">Teléfono Repsol</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/repsol/area-clientes">Repsol Clientes</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/companias/repsol/cambio-titular">Cambio de titular con Repsol</a></li></ul></li><li class="ac-menu-footer"><div class="ac-menu-footer__body"><svg class="icon icon--48 ac-menu-footer__icon" viewbox="0 0 24 24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-speech-bubbles"></use></svg><p class="ac-menu-footer__title">Llámanos</p><p class="ac-menu-footer__opening-hours">Lunes a viernes de 8 a 22h. Sáb: 9 a 21h. Dom: de 9 a 20h</p></div><div class="ac-menu-footer__phone"><a class="btn btn--white btn--md btn--pill btn--big-text u-anim--shake" href="tel:+34910769586" title="Llámanos gratuitamente"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg>91 076 95 86</a> </div></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--1 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--1" href="https://tarifaluzhora.es/distribuidoras">Distribuidoras<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--2"><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Distribuidoras</a></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Distribuidoras de luz<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Distribuidoras de luz</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/fenosa-distribucion">Unión Fenosa Distribución</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/e-redes">E-Redes </a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/viesgo-distribucion">Viesgo Distribución</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/iberdrola">I-DE (Iberdrola Distribución)</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/endesa">E-Distribución (Endesa)</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--2 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--2" href="#">Distribuidoras de gas<svg aria-hidden="true" class="ac-menu-list__arrow-right" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--3"><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3 ac-menu-list__link--back-link" href="#"><svg aria-hidden="true" class="ac-menu-list__arrow-left" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Distribuidoras de gas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/nedgia">Nedgia</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/nortegas">Nortegas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="/distribuidoras/redexis-gas">Redexis Gas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/madrilena-red-gas">Madrileña Red de Gas</a></li><li class="ac-menu-list__item ac-menu-list__item--3"><a class="ac-menu-list__link ac-menu-list__link--3" href="https://tarifaluzhora.es/distribuidoras/gas-extremadura">Gas Extremadura</a></li></ul></li><li class="ac-menu-footer"><div class="ac-menu-footer__body"><svg class="icon icon--48 ac-menu-footer__icon" viewbox="0 0 24 24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-speech-bubbles"></use></svg><p class="ac-menu-footer__title">Llámanos</p><p class="ac-menu-footer__opening-hours">Lunes a viernes de 8 a 22h. Sáb: 9 a 21h. Dom: de 9 a 20h</p></div><div class="ac-menu-footer__phone"><a class="btn btn--white btn--md btn--pill btn--big-text u-anim--shake" href="tel:+34910769586" title="Llámanos gratuitamente"><svg aria-hidden="true" class="icon icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg>91 076 95 86</a> </div></li></ul></li><li class="ac-menu-settings ac-menu-list__item ac-menu-list__item--1 ac-menu-list__item--has-child"><a class="ac-menu-list__link ac-menu-list__link--1 ac-menu-list__item--change" href="#"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-es"></use></svg>Español<span class="ac-menu-settings__btn-change">Cambiar</span></a><ul class="ac-menu-list__lvl ac-menu-list__lvl--2"><li class="ac-menu-list__item ac-menu-list__item--2"><a class="ac-menu-list__link ac-menu-list__link--2 ac-menu-list__link--back-link" href="#"><svg class="ac-menu-list__arrow-left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-arrow-right"></use></svg>Español</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://selectra.info/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-fr"></use></svg>Francia</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://luce-gas.it/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-it"></use></svg>Italia</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://callmepower.be/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-be"></use></svg>Bélgica</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://selectra.at/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-at"></use></svg>Austria</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://selectra.pt/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-pt"></use></svg>Portugal</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://selectra.jp/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-jp"></use></svg>Japón</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://akillitarife.com/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-tr"></use></svg>Turquía</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://selectra.mx/"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-mx"></use></svg>México</a></li><li class="ac-menu-list__item ac-menu-list__item--2"><a "="" class="ac-menu-list__link ac-menu-list__link--2" href="https://podecomparar.com.br/" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon ac-menu__icon-flag" role="img"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#flag-br"></use></svg>Brasil</a></li></ul></li><li class="ac-menu-list__item ac-menu-list__item--1"><ul class="ac-menu-social"><li class="ac-menu-social__item"><a aria-label="Facebook" class="ac-menu-social__btn ac-menu-social__btn--facebook" href="https://www.facebook.com/selectra.es/" rel="noopener" role="button" target="_blank"><svg aria-hidden="true" class="icon icon--24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-facebook"></use></svg></a></li><li class="ac-menu-social__item"><a aria-label="Twitter" class="ac-menu-social__btn ac-menu-social__btn--twitter" href="https://twitter.com/selectra_es" rel="noopener" role="button" target="_blank"><svg aria-hidden="true" class="icon icon--24"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-twitter"></use></svg></a></li></ul></li><li class="ac-menu-footer-phone"><a class="ac-menu-footer-phone__link u-anim--shake" href="tel:https://tarifaluzhora.es/formulario-contacto"><svg aria-hidden="true" class="icon icon--24 icon--left"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use></svg><span class="ac-menu-foote-phone__text">91 076 95 86</span></a></li></ul></nav></div></div></div></div></header></div></div></div></div></body></html>
+
+
+<div class="ac-menu__buttons">
+<!-- Button menu-->
+<button class="ac-menu-btn-menu btn" id="ac-menu-btn-menu">
+<span class="ac-menu-btn-menu__default">Menu</span>
+<span class="ac-menu-btn-menu__opened">
+<svg aria-label="Fermer" class="icon" role="img" viewbox="0 0 24 24">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-cross"></use>
+</svg>
+</span>
+</button>
+</div>
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="top-header">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<p> </p>
+<p> </p>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<h1 class="titles">Precio de la luz por horas</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<h4 class="text--center filters">
+<i class="fas fa-caret-right"> </i> Elige tu tarifa y el día que desees consultar:</h4>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4"></div>
+<div class="col-lg-4">
+<table class="data-table">
+<tbody>
+<tr>
+<td>
+<div class="filter_inputs visible">
+<div class="div_select">
+<select class="form-control rate_input" name="tarifa">
+<option selected="" value="pcb">Península, Canarias, Baleares</option>
+<option value="cym">Ceuta y Melilla</option>
+</select>
+</div>
+<input class="form-control date_input" name="date" type="text" value="13/06/2021"/>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-lg-4"></div>
+</div>
+<div class="row">
+<div class="col-lg-12 container-graphs">
+<div id="home-scroll-down">
+<div class="col-xs-12 block" id="price_summary">
+<div class="row block" id="current_info">
+<div class="col-lg-12">
+<div class="row">
+<div class="col-sm-3">
+<div class="inner_block gauge_hour">
+<h2 class="title">Precio a las
+																19:07</h2>
+<canvas class="col-xs-12" id="gauge"></canvas>
+<span class="col-sm-12 sub_text text--center">0.10681
+																€/kWh</span>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="inner_block gauge_day">
+<h2 class="title">Precio medio del día</h2>
+<span class="main_text">0.10636
+																€</span>
+<span class="sub_text">13 del 6 de 2021</span>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="inner_block gauge_low">
+<h2 class="title">Precio más bajo del día</h2>
+<span class="main_text">17h - 18h</span>
+<span class="sub_text green">
+<div class="arrow-down"></div>
+																0.09422
+																€/kWh
+															</span>
+</div>
+</div>
+<div class="col-sm-3 block">
+<div class="inner_block gauge_hight">
+<h2 class="title">Precio más alto del día</h2>
+<span class="main_text">22h - 23h</span>
+<span class="sub_text red">
+<div class="arrow-up"></div>
+																0.12326
+																€/kWh
+															</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+      ['Horas', 'Precio'],
+      ['00h - 01h', 0.10834],['01h - 02h', 0.10811],['02h - 03h', 0.10914],['03h - 04h', 0.10996],['04h - 05h', 0.11028],['05h - 06h', 0.11119],['06h - 07h', 0.11087],['07h - 08h', 0.11042],['08h - 09h', 0.10904],['09h - 10h', 0.10719],['10h - 11h', 0.10069],['11h - 12h', 0.0981],['12h - 13h', 0.09449],['13h - 14h', 0.09728],['14h - 15h', 0.09772],['15h - 16h', 0.09464],['16h - 17h', 0.09486],['17h - 18h', 0.09422],['18h - 19h', 0.09869],['19h - 20h', 0.10681],['20h - 21h', 0.11521],['21h - 22h', 0.12069],['22h - 23h', 0.12326],['23h - 24h', 0.12151],
+      ]);
+      var options = {
+      curveType: 'function',
+      hAxis: { textPosition: 'none', title: 'Hora' },
+      legend: 'none',
+      colors: ['#0faf10'],
+      pointSize: 7,
+      dataOpacity: 0.3
+      };
+      var chart = new google.visualization.LineChart(document.getElementById('daytime_linechart'));
+      chart.draw(data, options);
+  }
+
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container" itemscope="" itemtype="https://schema.org/PriceSpecification">
+<div class="row hours_cost">
+<div class="col-lg-12">
+<h2 class="title" itemprop="name">PRECIO DEL KWH DE LUZ POR HORAS</h2>
+<div class="col-display-4" id="hour_prices">
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">00h - 01h:</span> <span itemprop="price">0.10834 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">01h - 02h:</span> <span itemprop="price">0.10811 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">02h - 03h:</span> <span itemprop="price">0.10914 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">03h - 04h:</span> <span itemprop="price">0.10996 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">04h - 05h:</span> <span itemprop="price">0.11028 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">05h - 06h:</span> <span itemprop="price">0.11119 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">06h - 07h:</span> <span itemprop="price">0.11087 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">07h - 08h:</span> <span itemprop="price">0.11042 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">08h - 09h:</span> <span itemprop="price">0.10904 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">09h - 10h:</span> <span itemprop="price">0.10719 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">10h - 11h:</span> <span itemprop="price">0.10069 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">11h - 12h:</span> <span itemprop="price">0.0981 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">12h - 13h:</span> <span itemprop="price">0.09449 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">13h - 14h:</span> <span itemprop="price">0.09728 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">14h - 15h:</span> <span itemprop="price">0.09772 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">15h - 16h:</span> <span itemprop="price">0.09464 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">16h - 17h:</span> <span itemprop="price">0.09486 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">17h - 18h:</span> <span itemprop="price">0.09422 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#0faf10; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#0faf10;"><span itemprop="description" style="color: #333;">18h - 19h:</span> <span itemprop="price">0.09869 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f4a321; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f4a321;"><span itemprop="description" style="color: #333;">19h - 20h:</span> <span itemprop="price">0.10681 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f23c25; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f23c25;"><span itemprop="description" style="color: #333;">20h - 21h:</span> <span itemprop="price">0.11521 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f23c25; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f23c25;"><span itemprop="description" style="color: #333;">21h - 22h:</span> <span itemprop="price">0.12069 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f23c25; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f23c25;"><span itemprop="description" style="color: #333;">22h - 23h:</span> <span itemprop="price">0.12326 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+<div class="col-xs-3" style="background-color:#f23c25; height:0.9em; margin-top:1%;border-radius: 3px;"></div>
+<div class="col-xs-9" style="color:#f23c25;"><span itemprop="description" style="color: #333;">23h - 24h:</span> <span itemprop="price">0.12151 €/kWh</span><meta content="EUR" itemprop="priceCurrency"/></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<h2 class="title">Evolución del precio del kWh hoy</h2>
+<div id="daytime_linechart"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div id="caption">
+<div class="block">
+<p class="leyend-title">Leyenda</p>
+<ul>
+<li>
+<i class="fas fa-check"> </i>
+<strong>Fuente:</strong>
+									Red Eléctrica de España.</li>
+<li>
+<i class="fas fa-check"> </i>
+<strong>Precio medio del día:</strong>
+									Media aritmética de los precios del día en función del tipo de tarifa.</li>
+<li>
+<i class="fas fa-check"> </i> Precio en kilovatios hora.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div id="block-stickyfooter">
+<div class="sticky-footer">
+<div class="cc-open" data-callcenter="energia" data-default-state="open">
+<a class="btn btn--md btn--warning btn--big-text" href="tel:911983363">
+
+      91 198 33 63
+          </a>
+</div>
+</div>
+</div>
+<div>
+<footer id="ac-footer">
+<div class="ac-footer">
+<div class="container">
+<p class="ac-footer__baseline">Selectra le ayuda a ahorrar en su factura
+  <small class="ac-footer__baseline-info">
+<strong> </strong>
+</small>
+</p>
+<hr class="ac-footer__rule"/>
+<div class="row">
+<div class="col-xs-12">
+<section class="ac-footer-call">
+<div class="ac-footer-call__intro">
+<svg aria-hidden="true" class="icon">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-speech-bubbles"></use>
+</svg>
+<p class="ac-footer-call__title">¡Encuentra la oferta que se adapta mejor a ti!</p>
+<p class="ac-footer-call__opening-hours">Lunes a viernes de 8h a 22h, sábados de 9h a 21h, domingos de 9h a 20h</p>
+</div>
+<div class="ac-footer-call__cta">
+<a class="btn btn--md btn--pill btn--big-text btn--secondary u-anim--shake ac-footer-call__cta-phone" href="tel:+34910769586" id="number_link" title="Llámanos">
+<svg aria-hidden="true" class="icon icon--left">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-smartphone"></use>
+</svg>
+  91 076 95 86
+</a>
+</div>
+</section>
+</div>
+<hr class="ac-footer__rule"/>
+<div class="col-sm-6 col-md-3"><nav class="ac-footer-links m--fix"><p class="ac-footer-links__title ac-footer-links__toggle">Selectra</p><ul class="ac-footer-links__list"><li class="ac-footer-links__item"><a class="ac-footer-links__link" href="https://selectra.es" rel="nofollow">Grupo Selectra</a></li><li class="ac-footer-links__item"><a class="ac-footer-links__link" href="https://selectra.es/" rel="nofollow">Sobre nosotros</a></li><li class="ac-footer-links__item"><a class="ac-footer-links__link" href="mailto:info@selectra.com" rel="nofollow">¡Contacta con nosotros!</a></li></ul></nav></div><hr class="ac-footer__rule"/>
+<!-- Rating -->
+<div class="col-sm-6 col-md-4 col-lg-3">
+<div id="ac-users-rating">
+<div class="ac-users-rating" onclick="window.open('https://www.ekomi.es/testimonios-tarifaluzhoraes.html', '_blank');" role="link">
+<p class="ac-users-rating__title"><span>Tarifaluzhora.es</span> Valoración de Selectra</p>
+<div class="ac-users-rating__stars-rating">
+<div class="ac-users-rating__stars">
+<div class="ac-users-rating__stars-score" style="width:94.6;"></div>
+</div>
+<div class="ac-users-rating__note">
+<span>4.7</span>/<span>5</span>
+</div>
+<span class="u-display--none">1149</span>
+<span class="u-display--none">Ekomi</span>
+</div>
+<p class="ac-users-rating__baseline">de sus clientes. ¡Gracias!</p>
+</div>
+</div>
+</div>
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org/",
+		"@type": "SoftwareApplication",
+		"name": "Tarifaluzhora.es",
+		"operatingSystem": "Web-based",
+		"applicationCategory": "Comparator",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.7",
+			"ratingCount": "1149"
+		},
+		"offers": {
+			"@type": "Offer",
+			"price": "0.00",
+			"priceCurrency": "EUR"
+		}
+	}
+</script>
+<!-- /Rating -->
+<div class="col-xs-12 col-md-8 col-lg-6 col-subscribe">
+<form action="https://selectra.es/newsletter/territorio-ahorro?source=tarifaluzhorafooter" class="ac-footer-subscribe" method="post">
+<fieldset class="ac-footer-subscribe__fieldset">
+<legend class="ac-footer-subscribe__legend">Apúntante a nuestra newsletter quincenal con las mejores ofertas y trucos de ahorro</legend>
+<p class="ac-footer-subscribe__info">Déjanos tu e-mail y nos pondremos en contacto contigo</p>
+<div class="form-group">
+<input aria-label="Introduce tu e-mail" class="form-group__item ac-footer-subscribe__input" name="email" placeholder="Introduce tu e-mail" type="text"/>
+<button class="btn btn--md btn--secondary ac-footer-subscribe__cta">Regístrate</button>
+<p class="form-group__msg ac-footer-subscribe__error">
+<svg aria-hidden="true" class="icon icon--16 icon--white icon--left">
+<use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-info-circle"></use>
+</svg>
+                    Por favor, introduce un e-mail válido
+                </p>
+</div>
+</fieldset>
+</form>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 col-social"><nav class="ac-footer-social"><p class="ac-footer-social__title"> ¡Únete a Selectra! </p><ul class="ac-footer-social__list"><li class="ac-footer-social__item"><a aria-label="Página Facebook" class="ac-footer-social__link btn btn--circle btn--white btn--outline" href="https://www.facebook.com/selectra.es/" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-facebook"></use></svg></a></li><li class="ac-footer-social__item"><a aria-label="Página Twitter" class="ac-footer-social__link btn btn--circle btn--white btn--outline" href="https://twitter.com/selectra_es" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-twitter"></use></svg></a></li><li class="ac-footer-social__item"><a aria-label="Conócenos mejor" class="ac-footer-social__link btn btn--circle btn--white btn--outline" href="https://www.linkedin.com/company/selectra" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-linkedin"></use></svg></a></li><li class="ac-footer-social__item"><a aria-label="¡Únete a Instagram!" class="ac-footer-social__link btn btn--circle btn--white btn--outline" href="https://www.instagram.com/selectra_esp/" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-instagram"></use></svg></a></li><li class="ac-footer-social__item"><a aria-label="Visita nuestro canal" class="ac-footer-social__link btn btn--circle btn--white btn--outline" href="https://www.youtube.com/channel/UC1enePy5yCN85x4XX8VWKRw?sub_confirmation=1" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon"><use xlink:href="/themes/custom/agrippa/img/sprite.svg#icon-youtube"></use></svg></a></li></ul></nav></div>
+<hr class="ac-footer__rule"/>
+<div class="col-lg-7">
+<ul class="ac-footer-bottom-links"><li class="ac-footer-bottom-links__item"><a class="ac-footer-bottom-links__link" href="https://selectra.es/politica-privacidad" rel="nofollow">Política de Privacidad</a></li><li class="ac-footer-bottom-links__item"><a class="ac-footer-bottom-links__link" href="https://selectra.es/aviso-legal" rel="nofollow">Aviso Legal</a></li><li class="ac-footer-bottom-links__item"><a class="ac-footer-bottom-links__link" href="https://selectra.es/politica-cookies" rel="nofollow">Política de cookies</a></li></ul>
+</div>
+<div class="col-lg-5">
+<address class="ac-footer__address"><strong>Selectra:</strong> Calle Francisco Remiro 2, módulo E, 28028 Madrid</address>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<footer id="ac-copyright-footer">
+<div class="ac-copyright-footer">
+<object aria-hidden="true" aria-label="Selectra" class="ac-copyright-footer__logo" data="https://staging.cdn.selectra.info/app-config.selectra.io/img/medias/logos/946.svg" role="img" type="image/svg+xml">Logo Selectra</object>
+<p class="ac-copyright-footer__text">© 2021 - Todos los derechos reservados</p>
+</div>
+</footer>
+</div>
+</div>
+
+
+
+<script data-drupal-selector="drupal-settings-json" type="application/json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/187","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv\n\trole=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n\n\t\t\u003Cdiv class=\u0022eu-cookie-compliance-close\u0022\u003E\n\t\t\u003Cbutton class=\u0022btn-close btn-close--sm agree-button eu-cookie-compliance-default-button\u0022 type=\u0022button\u0022 aria-label=\u0022Close\u0022\u003E\n\t\t\t\u003Csvg class=\u0022icon\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-cross\u0022\u003E\u003C\/use\u003E\n\t\t\t\u003C\/svg\u003E\n\t\t\u003C\/button\u003E\n\t\u003C\/div\u003E\n\n\t\u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n\t\t\u003Cdiv class=\u0022eu-cookie-compliance-content--wrapper\u0022\u003E\n\t\t\t\u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n\t\t\t\t\u003Cp\u003EAl seguir navegando, est\u00e1s aceptando el uso de cookies.\u003C\/p\u003E\u0026nbsp;\n\t\t\t\u003C\/div\u003E\n\n\t\t\t\t\t\t\t\u003Cdiv id=\u0022eu-cookie-compliance-manage-cookies\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n\t\t\t\t\t\u003Cdiv class=\u0022manage-cookies\u0022 data-toggle=\u0022modal\u0022 data-target=\u0022manage-cookies-modal\u0022\u003EObt\u00e9n m\u00e1s informaci\u00f3n y configura el uso de cookies.\u003C\/div\u003E\n\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\u003Cdiv class=\u0022modal__holder\u0022\u003E\n\t\t\t\t\t\u003Cdiv class=\u0022modal__dialog\u0022\u003E\n\t\t\t\t\t\t\u003Cdiv class=\u0022modal modal--md\u0022 id=\u0022manage-cookies-modal\u0022 role=\u0022dialog\u0022 aria-modal=\u0022true\u0022\u003E\n\t\t\t\t\t\t\t\u003Cbutton class=\u0022btn-close btn-close--sm\u0022 type=\u0022button\u0022 aria-label=\u0022Close\u0022 data-dismiss=\u0022modal\u0022\u003E\n\t\t\t\t\t\t\t\t\u003Csvg class=\u0022icon icon-- icon-- icon--\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\t\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-cross\u0022\u003E\u003C\/use\u003E\n\t\t\t\t\t\t\t\t\u003C\/svg\u003E\n\t\t\t\t\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\u003Cdiv class=\u0022modal__header\u0022 id=\u0022content-area\u0022\u003E\n\t\t\t\t\t\t\t\t\u003Cspan class=\u0022eu-cookie-compliance__modal-title text-center modal--title\u0022\u003EConfigurar cookies\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv id=\u0022manage-cookies-description\u0022 class=\u0022text-center\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Cp\u003EEn esta p\u00e1gina usamos cookies para mejorar tu experiencia de usuario\u003C\/p\u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button btn btn-sm btn-secondary btn-outline\u0022\u003EMore info\u003C\/button\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories modal__body\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-technical\u0022 class=\u0022checkbox checkbox--disabled\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-technical\u0022 tabindex=\u0022-1\u0022 value=\u0022technical\u0022  checked   disabled \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022  tabindex=\u0022-1\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies t\u00e9cnicas\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ESon necesarias para proporcionar las funciones b\u00e1sicas de la web como la navegaci\u00f3n\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-analytics\u0022 class=\u0022checkbox \u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-analytics\u0022 tabindex=\u0022-1\u0022 value=\u0022analytics\u0022  checked  \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies de anal\u00edtica\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003EEstas cookies permiten conocer c\u00f3mo los usuarios navegan por la p\u00e1gina. Solo recabamos datos an\u00f3nimos con fines estad\u00edsticos\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-marketing\u0022 class=\u0022checkbox \u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-marketing\u0022 tabindex=\u0022-1\u0022 value=\u0022marketing\u0022  \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies de marketing\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003EEstas cookies con empleadas con fines publicitarios\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\u003Cdiv class=\u0022modal__footer\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-compliance-save-preferences-button btn btn--sm btn--secondary\u0022 data-dismiss=\u0022modal\u0022\u003E\n\t\t\t\t\t\t\t\t\t\tSave preferences\n\t\t\t\t\t\t\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\n\t\t\u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003E\n\t\t\t\t\u003Csvg class=\u0022icon icon--24\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-check-mark\u0022\u003E\u003C\/use\u003E\n\t\t\t\t\u003C\/svg\u003E\n\t\t\t\t\u003Cspan\u003E\n\t\t\t\t\tAceptar\n\t\t\t\t\u003C\/span\u003E\n\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button hidden\u0022\u003EWithdraw consent\u003C\/button\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\n\t\u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\n\trole=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n\n\t\t\u003Cdiv class=\u0022eu-cookie-compliance-close\u0022\u003E\n\t\t\u003Cbutton class=\u0022btn-close btn-close--sm agree-button eu-cookie-compliance-default-button\u0022 type=\u0022button\u0022 aria-label=\u0022Close\u0022\u003E\n\t\t\t\u003Csvg class=\u0022icon\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-cross\u0022\u003E\u003C\/use\u003E\n\t\t\t\u003C\/svg\u003E\n\t\t\u003C\/button\u003E\n\t\u003C\/div\u003E\n\n\t\u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n\t\t\u003Cdiv class=\u0022eu-cookie-compliance-content--wrapper\u0022\u003E\n\t\t\t\u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n\t\t\t\t\u0026nbsp;\n\t\t\t\u003C\/div\u003E\n\n\t\t\t\t\t\t\t\u003Cdiv id=\u0022eu-cookie-compliance-manage-cookies\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n\t\t\t\t\t\u003Cdiv class=\u0022manage-cookies\u0022 data-toggle=\u0022modal\u0022 data-target=\u0022manage-cookies-modal\u0022\u003EObt\u00e9n m\u00e1s informaci\u00f3n y configura el uso de cookies.\u003C\/div\u003E\n\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\u003Cdiv class=\u0022modal__holder\u0022\u003E\n\t\t\t\t\t\u003Cdiv class=\u0022modal__dialog\u0022\u003E\n\t\t\t\t\t\t\u003Cdiv class=\u0022modal modal--md\u0022 id=\u0022manage-cookies-modal\u0022 role=\u0022dialog\u0022 aria-modal=\u0022true\u0022\u003E\n\t\t\t\t\t\t\t\u003Cbutton class=\u0022btn-close btn-close--sm\u0022 type=\u0022button\u0022 aria-label=\u0022Close\u0022 data-dismiss=\u0022modal\u0022\u003E\n\t\t\t\t\t\t\t\t\u003Csvg class=\u0022icon icon-- icon-- icon--\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\t\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-cross\u0022\u003E\u003C\/use\u003E\n\t\t\t\t\t\t\t\t\u003C\/svg\u003E\n\t\t\t\t\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\u003Cdiv class=\u0022modal__header\u0022 id=\u0022content-area\u0022\u003E\n\t\t\t\t\t\t\t\t\u003Cspan class=\u0022eu-cookie-compliance__modal-title text-center modal--title\u0022\u003EConfigurar cookies\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv id=\u0022manage-cookies-description\u0022 class=\u0022text-center\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Cp\u003EEn esta p\u00e1gina usamos cookies para mejorar tu experiencia de usuario\u003C\/p\u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button btn btn-sm btn-secondary btn-outline\u0022\u003EMore info\u003C\/button\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories modal__body\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-technical\u0022 class=\u0022checkbox checkbox--disabled\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-technical\u0022 tabindex=\u0022-1\u0022 value=\u0022technical\u0022  checked   disabled \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022  tabindex=\u0022-1\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies t\u00e9cnicas\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ESon necesarias para proporcionar las funciones b\u00e1sicas de la web como la navegaci\u00f3n\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-analytics\u0022 class=\u0022checkbox \u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-analytics\u0022 tabindex=\u0022-1\u0022 value=\u0022analytics\u0022  checked  \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies de anal\u00edtica\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003EEstas cookies permiten conocer c\u00f3mo los usuarios navegan por la p\u00e1gina. Solo recabamos datos an\u00f3nimos con fines estad\u00edsticos\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cp class=\u0022eu-cookie-compliance-category\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022cookie-category-marketing\u0022 class=\u0022checkbox \u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cinput class=\u0022checkbox__input\u0022 type=\u0022checkbox\u0022 name=\u0022\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-marketing\u0022 tabindex=\u0022-1\u0022 value=\u0022marketing\u0022  \u003E\n\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__shape\u0022 \u003E\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003Cspan class=\u0022checkbox__label\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\u003Cstrong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\tCookies de marketing\n\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/strong\u003E\n\t\t\t\t\t\t\t\t\t\t\t\u003C\/span\u003E\n\t\t\t\t\t\t\t\t\t\t\u003C\/label\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003EEstas cookies con empleadas con fines publicitarios\u003C\/div\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/p\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\t\u003Cdiv class=\u0022modal__footer\u0022\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-compliance-save-preferences-button btn btn--sm btn--secondary\u0022 data-dismiss=\u0022modal\u0022\u003E\n\t\t\t\t\t\t\t\t\t\tSave preferences\n\t\t\t\t\t\t\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\u003C\/div\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\n\t\t\u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003E\n\t\t\t\t\u003Csvg class=\u0022icon icon--24\u0022 aria-hidden=\u0022true\u0022\u003E\n\t\t\t\t\t\u003Cuse xlink:href=\u0022\/themes\/custom\/agrippa\/img\/sprite.svg#icon-check-mark\u0022\u003E\u003C\/use\u003E\n\t\t\t\t\u003C\/svg\u003E\n\t\t\t\t\u003Cspan\u003E\n\t\t\t\t\tAceptar\n\t\t\t\t\u003C\/span\u003E\n\t\t\t\u003C\/button\u003E\n\t\t\t\t\t\t\t\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button hidden\u0022\u003EWithdraw consent\u003C\/button\u003E\n\t\t\t\t\t\u003C\/div\u003E\n\n\t\u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":62,"popup_width":"100%","popup_delay":1000,"popup_link":"https:\/\/selectra.es\/politica-cookies","popup_link_new_window":true,"popup_position":true,"fixed_top_position":false,"popup_language":"es","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only_js":false,"cookie_lifetime":390,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"categories","automatic_cookies_removal":true,"allowed_cookies":"technical:selectraRgpdAutoAcceptCookies\r\nanalytics:_ga\r\nanalytics:_gid\r\nanalytics:_gcl_au","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":["technical","analytics","marketing"],"cookie_categories_details":{"technical":{"uuid":"79f2970b-205f-4c66-897a-114956048eb6","langcode":"es","status":true,"dependencies":[],"_core":{"default_config_hash":"gXV5U-ZX3twBoJ63q5ixkXGs3hRx-iHa0Q2PCsINcFU"},"id":"technical","label":"Cookies t\u00e9cnicas","description":"Son necesarias para proporcionar las funciones b\u00e1sicas de la web como la navegaci\u00f3n","checkbox_default_state":"required","weight":-9},"analytics":{"uuid":"e480bba6-c409-49cf-a21f-b26450e4dc93","langcode":"es","status":true,"dependencies":[],"_core":{"default_config_hash":"Ppr4ObHh0Me1kYxDDoWuP8_LYN2ElSMZR6XHgp4ZYVo"},"id":"analytics","label":"Cookies de anal\u00edtica","description":"Estas cookies permiten conocer c\u00f3mo los usuarios navegan por la p\u00e1gina. Solo recabamos datos an\u00f3nimos con fines estad\u00edsticos","checkbox_default_state":"checked","weight":-8},"marketing":{"uuid":"99a38b7b-069a-4748-999a-4d3eb1938f7c","langcode":"es","status":true,"dependencies":[],"_core":{"default_config_hash":"tGOGAtZycObYMRXFXjJNdyI1Yo8MPsR6I037ugYMWTY"},"id":"marketing","label":"Cookies de marketing","description":"Estas cookies con empleadas con fines publicitarios","checkbox_default_state":"unchecked","weight":-7}},"enable_save_preferences_button":true,"containing_element":"body","settings_tab_enabled":false},"selectra_rgpd":{"autoAcceptCookies":1},"precioActual":0.10681,"precioMin":0.09422,"precioMax":0.12326000000000001,"minDate":"01\/06\/2021","themePath":"themes\/custom\/agrippa","activeThemePath":"themes\/custom\/agrippa","user":{"uid":0,"permissionsHash":"b97e905a4eec1a23c0eb44421c9d0234ad6d2c62dddabe4e56bccfd34d6b58b2"}}</script>
+<script src="/sites/default/files/js/js_TPERuCEv9Qkkpy96AJpk3M4jSkFWPTNBs6znHLeEg_I.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.0/dist/js/datepicker.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.0/dist/js/locales/es.js"></script>
+<script src="/sites/default/files/js/js_SwxI6No7-LdTSDZZTmJcpuvDKYHwBQ0JKMbps379M1s.js"></script>
+<script defer="" src="/modules/custom/selectra_rgpd/assets/js/eu_cookie_compliance.js?v=1.9"></script>
+<script defer="" src="/modules/custom/selectra_rgpd/assets/js/selectra-rgpd.js?que32y"></script>
+
+

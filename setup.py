@@ -1,17 +1,9 @@
-import os
-import shutil
 from setuptools import find_packages, setup
-
-# # Clone loggingbot repo
-# shutil.rmtree('./loggingbot', ignore_errors=True)
-# os.system('git clone -b master --single-branch https://github.com/Guillelerial/loggingbot.git')
-# # Install loggingbot
-# os.system('pip install -e loggingbot/')
 
 
 setup(name='pvpc_service',
       description='Context Provider for PVPC Energy prices in Spain',
-      version='master',
+      version='0.1',
       python_requires='>=3.7',
       install_requires=[
             'bs4==0.0.1',
@@ -21,7 +13,7 @@ setup(name='pvpc_service',
             'pandas==1.1.0',
             'requests==2.24.0',
       ],
-      author='Guillelerial',
+      author='Guillermo Gomez',
       author_email='guillermo.gc1994@gmail.com',
       url='https://github.com/Guillelerial/pvpc_to_telegram.git',
       packages=find_packages())

@@ -1,27 +1,10 @@
 import pandas as pd
-
-
-def scrap_price_section(content):
-    """
-    Download prices for PVPC energy market. They should follow the https://schema.org/PriceSpecification reference.
-
-    Args:
-        content (BeautifulSoup object): parsed web page
-
-    Returns (dict, {str: float}): Time interval to price value pairs. e.g {'00h - 01h': 0.1005}
-    """
-    # Locate and format relevant info e.g '00h - 01h' and 0.1005
-    ts_intervals = [i.text for i in content.findAll("span", {"itemprop": "description"})]
-    price_per_interval = [eval(i.text.split(' ')[0]) for i in content.findAll("span", {"itemprop": "price"})]
-
-    return {
-        interval.replace(':', ''): price for interval, price in zip(ts_intervals, price_per_interval)
-    }
+import matplotlib.pyplot as plt
 
 
 def build_df(date_issued, interval_to_price):
     """
-    Create a df based on scrapped values for further any
+    Create a df based on scrapped values for further processing
 
     Args:
         date_issued(pd.Timestamp): Local time Z-aware
@@ -40,3 +23,30 @@ def build_df(date_issued, interval_to_price):
         })
     return pd.DataFrame(data)
 
+
+def today(tz_name):
+    return pd.Timestamp.utcnow().tz_convert(tz_name).floor('d')
+
+
+def format_df_and_save_to_file(df):
+    # TODO: parametrize threshold for 'cheap' energy
+    thr1 = 0.1
+    thr2 = 0.11
+    today = df['ts_start'][0].date()
+    degrees = 90
+    # Format data and plot
+    df_cheap = df[df['price'] < thr1]
+    df_in_between = df[(df['price'] >= thr1) & (df['price'] < thr2)]
+    df_expensive = df[df['price'] >= thr2]
+    plt.bar(df_cheap.index, df_cheap['price'], color='g')
+    plt.bar(df_in_between.index, df_in_between['price'], color='y')
+    plt.bar(df_expensive.index, df_expensive['price'], color='r')
+    plt.ylim(df['price'].min(), df['price'].max())
+    plt.title(f'PVPC prices {today} in Spain')
+    plt.xticks(ticks=range(len(df)), labels=df['interval'].values, rotation=degrees)
+    plt.xlabel('Time Interval Applicable')
+    plt.ylabel('Price (€)')
+    plt.grid(True, axis='both')
+    plt.savefig('today.png')
+    plt.clf()
+    return 'today.png'
