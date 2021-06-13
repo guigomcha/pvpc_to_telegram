@@ -1,5 +1,4 @@
 from pathlib import Path
-
 import bs4
 
 from pvpcservice.tarifa_luz_hora_scrapper import TarifaLuzHora

@@ -31,12 +31,11 @@ Clone my forked repo at least until PR is accepted
 1) git clone https://github.com/Guillelerial/loggingbot.git
 
 ## How to configure the scrapper
-Two scrappers are implemented and configurable by manually replacing which implementation is used in pvpc.py 
-(self.scrapper property). In previous versions the web Tarifa Luz Hora was used since it does not require any auth.
+Two scrappers are implemented and configurable by manually replacing which implementation is used in controllers/api.py 
+(scrapper argument to PVPC class). In previous versions the web Tarifa Luz Hora was used since it does not require any auth.
 Latest update in the Bot involve a migration to the official ESIOS REE API (https://api.esios.ree.es/) 
 which requires a personal access token provided by them (email to  <consultasios@ree.es>). If choosing to use the ESIOS
-version, then provide **esios_ree_token** in the request to **/telegram/** (add it to tokens.json
-
+version, then provide **esios_ree_token** in the request to **/telegram/** (add it to tokens.json)
 
 
 ## Install and usage

@@ -9,10 +9,17 @@ from pvpcservice.tarifa_luz_hora_scrapper import TarifaLuzHora
 
 
 class PVPC:
-    def __init__(self, tz_name="Europe/Madrid", esios_token=""):
+    def __init__(self, scrapper, tz_name="Europe/Madrid", esios_token=""):
+        """
+
+        Args:
+            scrapper (ENUM): Available options are ESIOS or TARIFA
+            tz_name (string): name of the timezone
+            esios_token (string): Required if scrapper=ESIOS
+        """
         self.tz = tz_name
         self.entity_id = "EnergyPricePVPC1"
-        self.scrapper = EsiosRee(esios_token)  # TarifaLuzHora()
+        self.scrapper = EsiosRee(esios_token) if scrapper == "ESIOS" else TarifaLuzHora()
 
     def alert_telegram(self, bot_token, chats_token):
         """
@@ -39,7 +46,7 @@ class PVPC:
 
         """
         df = self.get_df()
-        entity = entities.get_ngsi_v2_entity(df, self.entity_id, utils.today())
+        entity = entities.get_ngsi_v2_entity(df, self.entity_id, utils.today(self.tz))
         return entity
 
     def get_df(self):

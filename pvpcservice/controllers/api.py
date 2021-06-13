@@ -16,7 +16,7 @@ def telegram(access_info):
 
     """
     try:
-        PVPC(access_info['esios_ree_token']).alert_telegram(access_info['bot_token'], access_info['chats_token'])
+        PVPC(scrapper='ESIOS', esios_token=access_info['esios_ree_token']).alert_telegram(access_info['bot_token'], access_info['chats_token'])
         return "Message Correctly sent to Telegram", HTTPStatus.OK
     except Exception as e:
         return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR
@@ -25,7 +25,7 @@ def telegram(access_info):
 def prices_v2():
     """ Additional endpoint to retrieve prices in NGSI-V2 format """
     try:
-        response = PVPC().get_ngsi_v2_model()
+        response = PVPC(scrapper='TARIFA').get_ngsi_v2_model()
         return f"{response}", HTTPStatus.OK
     except Exception as e:
         return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR
