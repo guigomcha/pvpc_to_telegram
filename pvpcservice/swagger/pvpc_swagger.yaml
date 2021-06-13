@@ -44,6 +44,8 @@ definitions:
     properties:
       bot_token:
         $ref: '#/definitions/token'
+      esios_ree_token:
+        $ref: '#/definitions/token'
       chats_token:
         description: Name
         type: array
