@@ -1,5 +1,5 @@
 # pvpc_to_telegram
-Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 02:30 of each day day with the 
+Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 20:30 of the day before with the 
 prices per hour in the form of a barchart. 
 
 Subscribe at: https://t.me/info_pvpc_spain  
@@ -29,6 +29,15 @@ found required for my setup.
 
 Clone my forked repo at least until PR is accepted
 1) git clone https://github.com/Guillelerial/loggingbot.git
+
+## How to configure the scrapper
+Two scrappers are implemented and configurable by manually replacing which implementation is used in pvpc.py 
+(self.scrapper property). In previous versions the web Tarifa Luz Hora was used since it does not require any auth.
+Latest update in the Bot involve a migration to the official ESIOS REE API (https://api.esios.ree.es/) 
+which requires a personal access token provided by them (email to  <consultasios@ree.es>). If choosing to use the ESIOS
+version, then provide **esios_ree_token** in the request to **/telegram/** (add it to tokens.json
+
+
 
 ## Install and usage
 Locally
@@ -60,7 +69,7 @@ Then access ````http://localhost:8080/ui```` to use the endpoints.
 
 4) Parametrize the date for which prices are returned
 
-5) Migrate to a https://www.esios.ree.es/es/pvpc to access to data at 20:30 of the day before
+~~5) Migrate to a https://www.esios.ree.es/es/pvpc to access to data at 20:30 of the day before~~
 
 6) Integrate with FIWARE QuantumLeap and plot prices in Grafana
 
