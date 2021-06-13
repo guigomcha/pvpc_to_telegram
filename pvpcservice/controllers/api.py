@@ -16,7 +16,7 @@ def telegram(access_info):
 
     """
     try:
-        PVPC(scrapper='ESIOS', esios_token=access_info['esios_ree_token']).alert_telegram(access_info['bot_token'], access_info['chats_token'])
+        PVPC(scrapper='ESIOS', esios_token=access_info.get('esios_ree_token', '')).alert_telegram(access_info['bot_token'], access_info['chats_token'])
         return "Message Correctly sent to Telegram", HTTPStatus.OK
     except Exception as e:
         return f"Ups! There was a problem. {e}", HTTPStatus.INTERNAL_SERVER_ERROR

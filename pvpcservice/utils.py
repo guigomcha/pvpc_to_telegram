@@ -8,7 +8,7 @@ def build_df(date_issued, interval_to_price):
 
     Args:
         date_issued(pd.Timestamp): Local time Z-aware
-        interval_to_price (dict, {str: float}): Time interval to price value pairs. e.g {'00h - 01h': 0.1005}
+        interval_to_price (dict, {str: float}): Time interval to price value pairs. e.g {'0-1h': 0.1005}
 
     Returns (pd.DataFrame):
         formatted prices to a df with ts_start, ts_end, interval and price columns
@@ -16,8 +16,8 @@ def build_df(date_issued, interval_to_price):
     data = []
     for interval, price in interval_to_price.items():
         data.append({
-            'ts_start': date_issued + pd.Timedelta(interval.split(' ')[0]),
-            'ts_end': date_issued + pd.Timedelta(interval.split(' ')[-1]),
+            'ts_start': date_issued + pd.Timedelta(interval.split('-')[0]+'h'),
+            'ts_end': date_issued + pd.Timedelta(interval.split('-')[-1]),
             'interval': interval,
             'price': price
         })
@@ -26,6 +26,11 @@ def build_df(date_issued, interval_to_price):
 
 def today(tz_name):
     return pd.Timestamp.utcnow().tz_convert(tz_name).floor('d')
+
+
+def tomorrow(tz_name):
+    _today = today(tz_name)
+    return _today + pd.Timedelta(days=1)
 
 
 def format_df_and_save_to_file(df):
@@ -47,6 +52,10 @@ def format_df_and_save_to_file(df):
     plt.xlabel('Time Interval Applicable')
     plt.ylabel('Price (€)')
     plt.grid(True, axis='both')
-    plt.savefig('today.png')
+    plt.savefig('prices_plot.png', bbox_inches='tight')
     plt.clf()
-    return 'today.png'
+    return 'prices_plot.png'
+
+
+def ts_intervals():
+    return [f"{i}-{i+1}h" for i in range(24)]

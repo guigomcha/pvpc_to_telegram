@@ -1,10 +1,11 @@
 import requests
 
+from pvpcservice import utils
+
 
 class EsiosRee:
     def __init__(self, token):
         self.token = token
-        self.source = 'https://api.esios.ree.es/indicators'
         # GeoID: 8741 - Peninsula, 8742 - Canarias, 8743 - Baleares, 8744 - Ceuta, 8745 - Melilla
         self.geo_id = 8741
         # Indicator info
@@ -23,9 +24,11 @@ class EsiosRee:
             'Authorization': f'Token token=\"{self.token}\"'
         }
 
+        self.source = f'https://api.esios.ree.es/indicators/{self.indicator}/'
+
     def scrap(self):
         """
-        A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'00h - 01h': 0.1005}
+        A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'0-1h': 0.1005}
 
         Returns (dict): interval_to_price
 
@@ -39,21 +42,17 @@ class EsiosRee:
         Transforms a json object from ESIOS REE into a dict of Time interval to price value pairs
 
         Args:
-            content (BeautifulSoup object): parsed web page
+            content (dict): Response from ESIOS API
 
-        Returns (dict, {str: float}): e.g {'00h - 01h': 0.1005}
+        Returns (dict, {str: float}): e.g {'0-1h': 0.1005}
         """
         # List received in order from 00:00 to 00:00 of the next day
-        ts_intervals = [f"{self.format_hour(i)} - {self.format_hour(i+1)}" for i in range(24)]
+        ts_intervals = utils.ts_intervals()
         price_per_interval = []
         for value_d in content['indicator']['values']:
             if value_d['geo_id'] != self.geo_id:
                 continue
-            price_per_interval.append(value_d['value'])
+            price_per_interval.append(value_d['value'] / 1000)
         return {
             interval: price for interval, price in zip(ts_intervals, price_per_interval)
         }
-
-    @staticmethod
-    def format_hour(hour):
-        return f"0{hour}h" if len(str(hour)) == 1 else f"{hour}h"

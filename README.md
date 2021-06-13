@@ -1,10 +1,10 @@
 # pvpc_to_telegram
-Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 20:30 of the day before with the 
+Telegram Bot that sends energy prices according to the PVPC webpage. Updates are sent at 22:00 of the day before with the 
 prices per hour in the form of a barchart. 
 
 Subscribe at: https://t.me/info_pvpc_spain  
 
-![Screenshot](media/telegrambot.PNG)
+![Screenshot](media/telegrambot.png)
 
 
 Current version of the app is deployed in a Raspberry pi 4 and orchestrated via Node Red:

@@ -1,6 +1,8 @@
 import bs4
 import requests
 
+from pvpcservice import utils
+
 
 class TarifaLuzHora:
     def __init__(self,):
@@ -8,7 +10,7 @@ class TarifaLuzHora:
 
     def scrap(self):
         """
-        A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'00h - 01h': 0.1005}
+        A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'0-1h': 0.1005}
 
         Returns (dict): interval_to_price
 
@@ -26,10 +28,10 @@ class TarifaLuzHora:
         Args:
             content (BeautifulSoup object): parsed web page
 
-        Returns (dict, {str: float}): e.g {'00h - 01h': 0.1005}
+        Returns (dict, {str: float}): e.g {'0-1h': 0.1005}
         """
-        # Locate and format relevant info e.g '00h - 01h' and 0.1005
-        ts_intervals = [i.text for i in content.findAll("span", {"itemprop": "description"})]
+        # Locate and format relevant info e.g '0-1h' and 0.1005
+        ts_intervals = utils.ts_intervals()
         price_per_interval = [eval(i.text.split(' ')[0]) for i in content.findAll("span", {"itemprop": "price"})]
 
         return {

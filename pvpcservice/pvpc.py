@@ -51,5 +51,7 @@ class PVPC:
 
     def get_df(self):
         interval_to_price = self.scrapper.scrap()
-        df = utils.build_df(utils.today(self.tz), interval_to_price)
+        # ESIOS return a day in advance
+        request_day = utils.today(self.tz) if isinstance(self.scrapper, TarifaLuzHora) else utils.tomorrow(self.tz)
+        df = utils.build_df(request_day, interval_to_price)
         return df
