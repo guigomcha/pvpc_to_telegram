@@ -11,4 +11,4 @@ def test_process():
     intervals_to_price_d = scrapper.process(content)
     assert isinstance(intervals_to_price_d, dict)
     assert len(intervals_to_price_d) == 24
-    assert '00h - 01h' in intervals_to_price_d.keys()
+    assert '0-1h' in intervals_to_price_d.keys()
