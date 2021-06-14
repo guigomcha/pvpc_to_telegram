@@ -46,12 +46,12 @@ class PVPC:
 
         """
         df = self.get_df()
-        entity = entities.get_ngsi_v2_entity(df, self.entity_id, utils.today(self.tz))
+        entity = entities.get_ngsi_v2_entity(df, self.entity_id, utils.get_date(self.tz))
         return entity
 
     def get_df(self):
-        interval_to_price = self.scrapper.scrap()
-        # ESIOS return a day in advance
-        request_day = utils.today(self.tz) if isinstance(self.scrapper, TarifaLuzHora) else utils.tomorrow(self.tz)
-        df = utils.build_df(request_day, interval_to_price)
+        interval_to_price = self.scrapper.scrap(tz_name=self.tz)
+        # ESIOS returns a day in advance
+        offset = 0 if isinstance(self.scrapper, TarifaLuzHora) else 1
+        df = utils.build_df(utils.get_date(self.tz, offset), interval_to_price)
         return df

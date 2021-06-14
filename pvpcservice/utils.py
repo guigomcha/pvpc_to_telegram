@@ -24,13 +24,9 @@ def build_df(date_issued, interval_to_price):
     return pd.DataFrame(data)
 
 
-def today(tz_name):
-    return pd.Timestamp.utcnow().tz_convert(tz_name).floor('d')
-
-
-def tomorrow(tz_name):
-    _today = today(tz_name)
-    return _today + pd.Timedelta(days=1)
+def get_date(tz_name, offset=0):
+    ts = pd.Timestamp.utcnow().tz_convert(tz_name).floor('d')
+    return ts + pd.Timedelta(days=offset)
 
 
 def format_df_and_save_to_file(df):

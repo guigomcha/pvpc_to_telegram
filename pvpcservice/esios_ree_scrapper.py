@@ -26,14 +26,18 @@ class EsiosRee:
 
         self.source = f'https://api.esios.ree.es/indicators/{self.indicator}/'
 
-    def scrap(self):
+    def scrap(self, tz_name):
         """
         A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'0-1h': 0.1005}
 
         Returns (dict): interval_to_price
 
         """
-        response = requests.get(self.source, headers=self.headers)
+        response = requests.get(self.source, headers=self.headers, params={
+            'start_date': utils.get_date(tz_name, offset=1).isoformat(sep='T')+'Z',
+            'end_date': utils.get_date(tz_name, offset=2).isoformat(sep='T')+'Z',
+            'geo_ids': [str(self.geo_id)]  # Not working
+        })
         response.raise_for_status()
         return self.process(response.json())
 
@@ -50,6 +54,7 @@ class EsiosRee:
         ts_intervals = utils.ts_intervals()
         price_per_interval = []
         for value_d in content['indicator']['values']:
+            # TODO: Remove when filter works
             if value_d['geo_id'] != self.geo_id:
                 continue
             price_per_interval.append(value_d['value'] / 1000)

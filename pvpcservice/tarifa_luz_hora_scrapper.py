@@ -5,10 +5,10 @@ from pvpcservice import utils
 
 
 class TarifaLuzHora:
-    def __init__(self,):
+    def __init__(self):
         self.source = 'https://tarifaluzhora.es/'
 
-    def scrap(self):
+    def scrap(self, *args, **kwargs):
         """
         A scrapper class shall be able to return a dict with intervals to price value pairs  e.g {'0-1h': 0.1005}
 
